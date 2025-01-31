@@ -1,0 +1,7 @@
+Evolutivas
+
+1 - Backup / backup em nuvem
+2 - Listagem dos clientes
+3 - Criação de uma tela bonita
+4 - Permissões de Liberador para deletar
+5 - Mais interatividade do cliente com o sofware

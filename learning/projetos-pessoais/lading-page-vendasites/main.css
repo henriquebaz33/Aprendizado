@@ -1,8 +1,16 @@
-body {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+html, body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex, .block {
+    flex-wrap: wrap;
+    min-height: 100vh; /* Garante que preencha a altura mínima */
 }
 
 .flex {
@@ -11,17 +19,20 @@ body {
     background-color: rgba(32, 53, 248, 0.5);
     background-blend-mode: overlay;
     background-size: cover;
+    width: 100%;
 }
 
 .container {
-    width: 75%;
-    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
     text-align: center;
 }
 
 header {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -67,7 +78,8 @@ iframe {
 
 .block {
     display: flex;
-    background-color: aqua;
+    width: 100%;
+    background-color: rgba(0, 15, 150, 0.5);
 }
 
 .container2 {
@@ -82,6 +94,7 @@ iframe {
 
 .conteudo {
     max-width: 600px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .conteudo p {
@@ -96,6 +109,53 @@ h2 {
 }
 
 img {
-    width: 400px;
+    max-width: 400px;
     border-radius: 50%;
+    border: 7px rgb(199, 169, 0) solid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+}
+
+
+@media screen and (max-width: 768px) {
+    .container2 {
+        flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .conteudo {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .button a {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    iframe {
+        border: 7px rgb(199, 169, 0) solid;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        width: 400px;
+        height: 200px;
+    }
+
+    .conteudo p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 80%; /* Faz com que as imagens diminuam também */
+    }
 }
