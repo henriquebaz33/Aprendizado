@@ -1,7 +1,6 @@
-modulo apresentação
-- conheça a ebac
-- queremos conhecer voce
-- guia do estudante
-- junte-se a nossa comunidade de carreiras!
-- jornada de aprendizagem
-- apresentacao do curso
+Introdução ao desenvolvimento Front-end
+	- Junte-se à nossa comunidade de programação e dados!
+	- Explore as áreas do desenvolvimento
+	- Entenda o mercado
+	- Conheça tecnologias de Front-End
+	- 
