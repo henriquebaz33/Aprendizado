@@ -1,6 +1,2 @@
-Introdução ao desenvolvimento Front-end
-	- Junte-se à nossa comunidade de programação e dados!
-	- Explore as áreas do desenvolvimento
-	- Entenda o mercado
-	- Conheça tecnologias de Front-End
+Versionamento de código usando o Git
 	- 

@@ -116,7 +116,7 @@ img {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .container2 {
         flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
         text-align: center;
@@ -147,6 +147,50 @@ img {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         width: 400px;
         height: 200px;
+    }
+
+    .conteudo p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 80%; /* Faz com que as imagens diminuam também */
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1100) {
+    .container2 {
+        flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .conteudo {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .button a {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    iframe {
+        border: 7px rgb(199, 169, 0) solid;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        width: 800px;
+        height: 400px;
     }
 
     .conteudo p {
