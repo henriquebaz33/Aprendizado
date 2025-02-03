@@ -25,9 +25,9 @@
                 frameborder="0"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
+                allowfullscreen id="video"></iframe>
 
-                <div class="button">
+                <div class="button" id="botao">
                     <a href="#">Entrar para o grupo</a>
                 </div> 
             </main>
@@ -52,5 +52,16 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let botao = document.getElementById("botao");
+            let tempoExibir = 180000; // Tempo em milissegundos (10.000 ms = 10 segundos)
+    
+            setTimeout(function() {
+                botao.style.display = "block"; // Exibe o botão após o tempo definido
+            }, tempoExibir);
+        });
+    </script>
 </body>
 </html>

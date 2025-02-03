@@ -1,2 +1,3 @@
 Versionamento de código usando o Git
+	- Aprenda a usar o terminal e conheça o Git Stage
 	- 
