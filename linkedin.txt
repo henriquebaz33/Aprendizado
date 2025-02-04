@@ -1,15 +1,14 @@
 - deixar o perfil top
 
-	- foto (photoroom)
-	- banner (canva = pesquisar por banner linkedin)
-	- palavaras chaves (debaixo do nome)
-		- usar as mesmas palavras na sessao sobre e experiencia
-	- sobre: contatos - portifolio
-	- sobre com contatos
+	- foto (photoroom) +
+	- banner (canva = pesquisar por banner linkedin) +
+	- palavaras chaves (debaixo do nome) +
+	- sobre: contatos - portifolio +
+	- sobre com contatos +
 
 Linkedin:
 
-- post de apresentação
+- post de apresentação +
 
 - seguir outras 10 contas da área
 
