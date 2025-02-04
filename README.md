@@ -58,5 +58,5 @@ Meu objetivo é conseguir minha primeira vaga na área em um ano, documentando t
 ## 🚀 **Acompanhamento e Atualizações**
 Este repositório será atualizado constantemente com novos aprendizados, projetos e desafios resolvidos. Se quiser acompanhar minha evolução, fique à vontade para seguir e contribuir!
 
-📌 **LinkedIn:** [Seu Perfil](#)  
-📌 **Contato:** [Seu E-mail](#)
+📌 **LinkedIn: **https://www.linkedin.com/in/henrique-baz-63209834a/** 
+📌 **Contato: **henriquebaz33@gmail.com**
