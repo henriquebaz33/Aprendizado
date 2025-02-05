@@ -53,6 +53,15 @@ iframe {
 .button {
     margin: 60px;
     display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.transicao {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .button a {

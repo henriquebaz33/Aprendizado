@@ -5,6 +5,6 @@ pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load('musica.mp3')
 pygame.mixer.music.play()
-pygame.event.wait()
-
-# não deu certo, parei neste exercício
+while pygame.mixer.music.get_busy():
+    continue
+pygame.quit()

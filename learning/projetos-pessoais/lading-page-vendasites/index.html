@@ -28,7 +28,7 @@
                 allowfullscreen id="video"></iframe>
 
                 <div class="button" id="botao">
-                    <a href="#">Entrar para o grupo</a>
+                    <a href="/form.html">Entrar para o grupo</a>
                 </div> 
             </main>
 
@@ -56,10 +56,13 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             let botao = document.getElementById("botao");
-            let tempoExibir = 180000; // Tempo em milissegundos (10.000 ms = 10 segundos)
+            let tempoExibir = 5000; // Tempo em milissegundos (10.000 ms = 10 segundos)
     
             setTimeout(function() {
-                botao.style.display = "block"; // Exibe o botão após o tempo definido
+                botao.style.display = "block";
+                setTimeout(() => {
+                    botao.classList.add("transicao");
+                }, 50)
             }, tempoExibir);
         });
     </script>

@@ -1,7 +1,6 @@
 Revisar
 
-- transição no aparecimento do botao
+- revisao geral
 
-- dados do curso de web
 
-- treinar comando da primeira aula de git EBAC
+
