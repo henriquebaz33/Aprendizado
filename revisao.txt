@@ -1,6 +1,8 @@
 Revisar
 
-- revisao geral
+- módulo de git da EBAC
+
+- pq nao consigo acessar o repositorio do git no github
 
 
 
