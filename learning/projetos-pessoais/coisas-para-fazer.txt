@@ -1,0 +1,5 @@
+- animação da barra de progresso
+
+- ajuste de tamanho dos elementos da seção fixed
+
+- arrumar espaçõ de aparecimento do botao

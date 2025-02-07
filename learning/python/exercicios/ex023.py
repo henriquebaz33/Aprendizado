@@ -1,12 +1,13 @@
 nmr = int(input('Informe um número: '))
 
-unidade = nmr % 10
+unidade = nmr // 1 - (nmr // 10 * 10)
 print(f'Unidade: {unidade}')
 
+dezena = nmr // 10 - (nmr // 100 * 10)
+print(f'Dezena: {dezena}')
 
-print(nmr % 100)
-print(nmr % 1000)
-print(nmr % 10000)
+centena = nmr // 100 - (nmr // 1000 * 10)
+print(f'Centena: {centena}')
 
-
-#parei neste aqui, a ideia está ai só tem que descobrir como faz acontecer
+milhar = nmr // 1000 - (nmr // 10000 * 10)
+print(f'Milhar: {milhar}')

@@ -2,4 +2,7 @@ Versionamento de código usando o Git
 	- Aprenda a usar o terminal e conheça o Git Stage
 	- Salve as alterações (Commits)
 	- Liste alterações (Logs)
+	- Consulte o histórico
+	- Crie ramificações no código (Branches)
+	- Resolva conflitos (Merge)
 	- 

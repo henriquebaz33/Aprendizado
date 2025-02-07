@@ -21,17 +21,15 @@
             <h2>PREENCHA SEUS DADOS ABAIXO</h2>
 
             <main>
-                <form action="submit">
-                    <input type="text">
-                    <input type="email">
-                    <input type="number">
-                    <button>
-                        <a href="#">Continuar</a>
-                    </button>
+                <form id="meuFormulario" action="submit">
+                    <input type="text" name="nome" placeholder="Seu Nome Completo" class="foco" autocomplete="name" required>
+                    <input type="email" name="email" placeholder="Seu Melhor E-mail" class="foco" autocomplete="email" required>
+                    <input type="tel" name="telefone" placeholder="Seu Telefone com DDD (Ex: 51999998888)" class="foco-normal" autocomplete="tel" required>
+                    <button type="submit" id="botao-form">Continuar</button>
                 </form>
             </main>
             <!--Quando ele se cadastrar direciona para o wahtsapp e envia um email-->
-            <p>Aguarde você será redirecionado...</p>
+            <p id="mensagem-explicativa">Preencha o formulário e você será redirecionado...</p>
 
         </div>
 
@@ -54,6 +52,14 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.getElementById('meuFormulario').addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            this.reset();
+        })
+    </script>
 
 </body>
 </html>
