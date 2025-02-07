@@ -18,7 +18,7 @@
                 <p class="barra-progresso"><span>30%</span></p>
             </header>
 
-            <h2>PREENCHA SEUS DADOS ABAIXO</h2>
+            <h2 class="h2-form">PREENCHA SEUS DADOS ABAIXO</h2>
 
             <main>
                 <form id="meuFormulario" action="submit">
@@ -58,6 +58,16 @@
             event.preventDefault();
 
             this.reset();
+        })
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressBar = document.querySelector('.barra-progresso span');
+            const progressText = document.querySelector('.barra-progresso span');
+
+            let progress = 30;
+
+            progressBar.style.width = progress + '%';
+            progressText.textContent = progress + '%';
         })
     </script>
 

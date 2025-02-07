@@ -5,4 +5,7 @@ Versionamento de código usando o Git
 	- Consulte o histórico
 	- Crie ramificações no código (Branches)
 	- Resolva conflitos (Merge)
-	- 
+	- Controle a versão (Github)
+	- Boas práticas
+	- 15
+

@@ -35,18 +35,23 @@ header {
     width: 90%;
     margin: 10px auto;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    height: 40px;
 }
 
 span {
+    align-items: center;
+    color: black;
     font-weight: bold;
     display: flex;
+    height: 40px;
     background-color: rgb(1, 238, 1);
-    width: 30%;
+    width: 0%;
     border-radius: 20px;
-    padding: 5px 25px;
+    padding: 5px 35px;
     text-align: center;
-    justify-content: flex-end;  
+    justify-content: flex-end; 
+    transition: width 3s ease-out; 
 }
 
 h1 {
@@ -94,7 +99,7 @@ h1 {
     max-height: 400px;
 }
 
-h2 {
+.h2-form {
     font-size: 42px;
     margin: 70px 0 40px 0;
     font-weight: bold;
@@ -158,9 +163,81 @@ input[type="number"]::-webkit-inner-spin-button {
 
 }
 
+#mensagem-explicativa {
+    color: white;
+    margin: 30px auto 70px;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+
 img {
     max-width: 400px;
     border-radius: 50%;
     border: 7px rgb(199, 169, 0) solid;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+}
+
+h2 {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 32px;
+    }  
+    
+    .h2-form {
+        font-size: 28px;
+    }
+
+    #mensagem-explicativa {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    img {
+        max-width: 60%; /* Faz com que as imagens diminuam também */
+    }
+
+    .container2 {
+        flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .conteudo p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container2 {
+        flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .conteudo {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .conteudo p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 60%; /* Faz com que as imagens diminuam também */
+    }
 }
