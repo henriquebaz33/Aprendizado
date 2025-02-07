@@ -4,5 +4,7 @@ Revisar
 
 - pq nao consigo acessar o repositorio do git no github
 
+- ver mais tasks para o linkedin
+
 
 
