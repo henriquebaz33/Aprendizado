@@ -13,7 +13,6 @@ Revisar
 	- numeros
 	- erros numeros
 
-- ver mais tasks para o linkedin
 
 
 
