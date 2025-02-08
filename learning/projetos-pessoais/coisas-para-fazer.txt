@@ -1,3 +1,1 @@
 - fazer todos os @media
-
-- arrumar espaçõ de aparecimento do botao

@@ -66,9 +66,14 @@
 
             let progress = 30;
 
-            progressBar.style.width = progress + '%';
-            progressText.textContent = progress + '%';
-        })
+            if (progressBar) {
+                let progress = 30;
+
+                progressBar.style.width = progress + '%';
+                progressBar.textContent = progress + '%';
+            }    
+        }
+    )
     </script>
 
 </body>
