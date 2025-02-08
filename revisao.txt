@@ -1,10 +1,20 @@
 Revisar
 
 - módulo de git da EBAC
+	- Aprenda a usar o terminal e conheça o Git Stage
+	- Salve as alterações (Commits)
+	- Liste alterações (Logs)
+	- slide 6
 
-- pq nao consigo acessar o repositorio do git no github
+- web
+	- comentarios
+	- variaveis e constantes
+	- tipagem fraca
+	- numeros
+	- erros numeros
 
 - ver mais tasks para o linkedin
+
 
 
 

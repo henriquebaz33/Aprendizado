@@ -8,10 +8,18 @@
 
 Linkedin:
 
-- post de apresentação +
+- estudar como melhorar meu linkedin
 
-- seguir outras 10 contas da área +
+- 2. Postagem sobre seu GitHub
+	Imagem sugerida:
 
-- comentar em 5 posts +
+		Print do seu repositório no GitHub mostrando a 		estrutura organizada.
+		Um banner com "Meu GitHub está no ar! 🚀".
+		Um gráfico de commits para mostrar sua 		atividade.
 
-- compartilhar minha publicação +
+
+- seguir outras 20 contas da área 
+
+- comentar em 10 posts 
+
+- enviar minha públicacao para 10 pessoas
