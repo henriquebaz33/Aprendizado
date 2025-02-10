@@ -23,9 +23,9 @@
             <main>
                 <form id="meuFormulario" action="submit">
                     <input type="text" name="nome" placeholder="Seu Nome Completo" class="foco" autocomplete="name" required>
-                    <input type="email" name="email" placeholder="Seu Melhor E-mail" class="foco" autocomplete="email" required>
+                    <input type="email" name="email" placeholder="Seu Melhor E-mail" class="foco" autocomplete="email" required id="email">
                     <p id="validacao-email">O campo é Obrigatório!</p>
-                    <input type="tel" name="telefone" placeholder="Seu Telefone com DDD (Ex: 51999998888)" class="foco-normal" autocomplete="tel" required>
+                    <input type="tel" name="telefone" placeholder="Seu Telefone com DDD (Ex: 51999998888)" class="foco-normal" autocomplete="tel" required id="tel">
                     <p id="validacao-telefone">O número digitado está incorreto ou não atende aos requisitos...</p>
                     <button type="submit" id="botao-form">Continuar</button>
                 </form>
@@ -59,8 +59,31 @@
 
         document.getElementById('meuFormulario').addEventListener("submit", function(event) {
             event.preventDefault();
-            // aqui que vou validar o email e numero
-            this.reset();
+
+            function validarEmail(email) {
+                const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                
+                if (!regex.test(email)) {
+                    document.getElementById('validacao-email').style.display = 'block';
+                    document.getElementById('email').classList.add('error');
+                }
+            }
+
+            function validarTelefone(telefone) {
+                const regex = /^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$/;
+                
+                if (!regex.test(telefone)) {
+                    document.getElementById('validacao-telefone').style.display = 'block';
+                    document.getElementById('tel').classList.add('error');
+                }
+            }
+
+
+            let email = document.getElementById('email').value;
+            let telefone = document.getElementById('tel').value;
+
+            let validaEmail = validarEmail(email);
+            let validaTelefone = validarTelefone(telefone);
         })
 
         document.addEventListener('DOMContentLoaded', function() {

@@ -261,11 +261,15 @@ h2 {
 }
 
 #validacao-email, #validacao-telefone {
-    /*display: none;*/
+    display: none;
     color: red;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
     text-align: start;
     width: 60%;
     margin: 0 auto 20px auto; 
     font-weight: bold;
+}
+
+.error {
+    border: 1px solid red;
 }
