@@ -1,18 +1,10 @@
 Revisar
 
-- módulo de git da EBAC
-	- Aprenda a usar o terminal e conheça o Git Stage
-	- Salve as alterações (Commits)
-	- Liste alterações (Logs)
-	- slide 6
-
-- web
-	- comentarios
-	- variaveis e constantes
-	- tipagem fraca
-	- numeros
-	- erros numeros
-
+web
+	- erros js
+	- math
+	- string
+	- template string
 
 
 

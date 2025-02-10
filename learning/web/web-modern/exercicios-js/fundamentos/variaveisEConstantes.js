@@ -7,7 +7,7 @@ b = 40;
 console.log(a, b);
 
 a = 300;
-a = 400;
+b = 400;
 
 console.log(a, b);
 

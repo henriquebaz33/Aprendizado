@@ -174,7 +174,7 @@ img {
     max-width: 400px;
     border-radius: 50%;
     border: 7px rgb(199, 169, 0) solid;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -240,4 +240,32 @@ h2 {
     img {
         max-width: 60%; /* Faz com que as imagens diminuam também */
     }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .container2 {
+        flex-direction: column; /* Faz os elementos ficarem um abaixo do outro */
+        text-align: center;
+        gap: 20px;
+    }
+
+    h1{ 
+        font-size: 32px
+    }
+
+    .conteudo p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: center;
+    }   
+}
+
+#validacao-email, #validacao-telefone {
+    /*display: none;*/
+    color: red;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+    text-align: start;
+    width: 60%;
+    margin: 0 auto 20px auto; 
+    font-weight: bold;
 }

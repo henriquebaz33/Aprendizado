@@ -1,1 +1,11 @@
-- fazer todos os @media
+- editar fundo para facilitar a visualização de tudo
+
+- validar o formulário
+
+- mandar um e-mail e whatsapp para cada um que preencher o formulário (whatsapp programar para 2 horas depois com uma mensagem dizendo que a pessoa quase fechou o negocio)
+
+- ao clicar no botão leva para o whatsapp
+
+- usar: <meta property="og:title“ content=“Título para o Facebook" /> para ver como funciona no limk do zap
+
+- colocar na vercel
