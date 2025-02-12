@@ -3,7 +3,15 @@ Revisar
 	- template string
 	- boolean
 	- array
-	- 
+	- object
+	- null and undefined
+
+Ebac (esperar mais quando chegar em 6)
+
+	- insira textos
+	- containers
+	- listas
+	- tabelas
 
 
 

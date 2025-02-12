@@ -1,4 +1,7 @@
 HTML
 	- Estruture páginas
-	- 
+	- Insira textos
+	- Agrupe elementos na página (Containers)
+	- Liste em HTML
+	- Crie tabelas em HTML
 

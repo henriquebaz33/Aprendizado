@@ -8,9 +8,41 @@
 
 esse cara que encontrei no linkedin pode ser uma porta de entrada pra mim: Lucas Hernandez 
 
-Linkedin:
+Linkedin: 4:09 do vídeo
 
 - listar todas as tecnologia que vou aprender até terminar o curso da EBAC para utilizar no linkedin
+
+Desenvolvedor Full-Stack | HTML, CSS, JavaScript, TypeScript, React, VueJS, jQuery, Bootstrap, SASS, LESS | Java, SpringBoot, JPA, SQL | Git, Gulp, Grunt, Cypress, Docker
+
+
+Palavras-Chave para o About:
+
+Desenvolvimento Front-End
+
+HTML, CSS, JavaScript
+
+React, VueJS, Redux
+
+TypeScript, jQuery, Bootstrap
+
+SASS, LESS, Gulp, Grunt
+
+Desenvolvimento Back-End Java
+
+SpringBoot, Microserviços, JPA
+
+SQL, ORMs, Expressões Lambdas
+
+Testes Automatizados (Unitários, Integração, E2E)
+
+Algoritmos e Estruturas de Dados
+
+Arquitetura de Software e Design de Microsserviços
+
+Versionamento de Código com Git
+
+Automação de Tarefas e Boas Práticas de CSS
+
 
 - estudar como melhorar meu linkedin
 
