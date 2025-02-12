@@ -27,7 +27,10 @@
                     <p id="validacao-email">O campo é Obrigatório!</p>
                     <input type="tel" name="telefone" placeholder="Seu Telefone com DDD (Ex: 51999998888)" class="foco-normal" autocomplete="tel" required id="tel">
                     <p id="validacao-telefone">O número digitado está incorreto ou não atende aos requisitos...</p>
-                    <button type="submit" id="botao-form">Continuar</button>
+                    <button type="submit" id="botao-form">
+                        <div class="spinner" id="spinner"></div>
+                        Continuar
+                    </button>
                 </form>
             </main>
             <!--Quando ele se cadastrar direciona para o wahtsapp e envia um email-->
@@ -66,6 +69,10 @@
                 if (!regex.test(email)) {
                     document.getElementById('validacao-email').style.display = 'block';
                     document.getElementById('email').classList.add('error');
+                } else {
+                    document.getElementById('validacao-email').style.display = 'none';
+                    document.getElementById('email').classList.remove('error');
+                    return true;
                 }
             }
 
@@ -75,6 +82,10 @@
                 if (!regex.test(telefone)) {
                     document.getElementById('validacao-telefone').style.display = 'block';
                     document.getElementById('tel').classList.add('error');
+                } else {
+                    document.getElementById('validacao-telefone').style.display = 'none';
+                    document.getElementById('tel').classList.remove('error');
+                    return true;
                 }
             }
 
@@ -84,6 +95,34 @@
 
             let validaEmail = validarEmail(email);
             let validaTelefone = validarTelefone(telefone);
+
+            if (validaEmail && validaTelefone) {
+                let button = document.getElementById('botao-form');
+                let spinner = document.getElementById('spinner');
+
+                spinner.style.display = "inline-block";
+                button.disabled = true;
+                button.style.opacity = "0.7";
+
+                setTimeout(() => {
+                    alert("Formulário enviado com sucesso! Você será redirecionado...");
+                    
+                    // Esconde o spinner e reativa o botão
+                    spinner.style.display = "none";
+                    button.disabled = false;
+                    button.style.opacity = "1";
+
+                    let telefone = '5551995638510';
+
+                    let mensagem = 'Olá gostaria de mais informações sobre o curso!'
+
+                    let link = `https://wa.me/${telefone}?text=${mensagem}`;
+
+                    window.open(link, '_blanck');
+                    
+                    this.reset();
+                }, 2000);
+            }
         })
 
         document.addEventListener('DOMContentLoaded', function() {

@@ -1,10 +1,9 @@
 Revisar
 
-web
-	- erros js
-	- math
-	- string
 	- template string
+	- boolean
+	- array
+	- 
 
 
 

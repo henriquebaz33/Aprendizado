@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+
+    <style>
+        input {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            margin: 20px 0;
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+
+    <hr>
+
+    <h2>Tags e Paragráfos</h2>
+
+    <p><span>Lorem</span> <b>ipsum</b> <i>dolor</i> sit amet consectetur <small>adipisicing</small> elit. <a href="#">Similique</a> officia placeat <del>asperiores</del> vero, <em>nisi</em> dolorem molestiae nam dolor cum <strong>rem</strong> numquam magnam <mark>laboriosam</mark> labore, iste tenetur aperiam vel, quasi quod?</p>
+
+    <p><blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nisi?</blockquote></p>
+
+    <p><address>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, distinctio.</address></p>
+
+    <hr>
+
+    <h2>Listas</h2>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <hr>
+
+    <h2>Tabelas</h2>
+
+    <table>
+        <caption>Relogios</caption>
+        <thead>
+            <th>Galaxy</th>
+            <th>Samsung</th>
+            <th>Iphone</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <tr>
+                    <td colspan="2">Total de itens</td>
+                    <td>2</td>
+                </tr>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <h2>Formulário</h2>
+
+    <form action="submit">
+        <input type="text">
+
+        <select name="teste" id="teste">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <button>Continuar</button>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" required>
+
+        <input type="file">
+
+        <input type="color">
+
+        <input type="checkbox" id="meuCheckbox">
+        <label for="meuCheckbox">Teste</label>
+        
+        <input type="radio" id="meuRadio" name="números">
+        <label for="meuRadio">1</label>
+        
+        <input type="radio" id="meuRadio" name="números">
+        <label for="meuRadio">2</label>
+
+        <input type="radio" id="meuRadio" name="números">
+        <label for="meuRadio">2</label>
+    </form>
+
+    <hr>
+
+    <h2>Audio</h2>
+    <audio src="musica.mp3" controls>teste</audio>
+
+    <h2>Vídeo</h2>
+    <iframe src="https://www.youtube.com/embed/K8bexGgIyBw" frameborder="0" width="400" height="200px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+
+    <h2>Imagem</h2>
+    <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/robert-pattinson-como-batman.png?w=1024" alt="foto batman" width="400px" height="200px">
+</body>
+</html>

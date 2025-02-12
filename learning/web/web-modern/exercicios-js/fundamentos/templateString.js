@@ -7,6 +7,7 @@ console.log(template);
 
 console.log(`1 + 1 = ${1 + 1}`);
 
-const up = texto => texto.toUpperCase();
+// expressões
+const up = texto => texto.toUpperCase(); // recebe texto como parametro (isso é uma function)
 
-// parei aqui
+console.log(`Ei... ${up('Cuidado')}!`);
